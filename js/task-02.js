@@ -15,4 +15,4 @@ const ingredientItems = ingredients.map(ingredient => {
   return item;
 });
 
-ingredientsList.append(...ingredientItems);
+ingredientsList.prepend(...ingredientItems);
