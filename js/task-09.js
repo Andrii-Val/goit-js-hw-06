@@ -14,7 +14,7 @@ changeColorBtn.addEventListener('click', () => {
 });
 
 function generateRandomColor() {
-  // Генеруємо випадковий шестизначний колір
+
   const color = Math.floor(Math.random() * 16777215).toString(16);
   return `#${color}`;
 }
